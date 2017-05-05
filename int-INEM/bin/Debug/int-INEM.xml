@@ -1,0 +1,471 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+int-INEM
+</name>
+</assembly>
+<members>
+<member name="T:int_INEM.inemDataSet.dtDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:int_INEM.inemDataSet.transaccionesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:int_INEM.inemDataSet.dtRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:int_INEM.inemDataSet.transaccionesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:int_INEM.inemDataSet.dtRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:int_INEM.inemDataSet.transaccionesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:int_INEM.inemDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:int_INEM.inemDataSetTableAdapters.dtTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:int_INEM.inemDataSetTableAdapters.transaccionesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:int_INEM.inemDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(int_INEM.inemDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:int_INEM.inemDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(int_INEM.inemDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:int_INEM.inemDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(int_INEM.inemDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:int_INEM.inemDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:int_INEM.inemDataSetTableAdapters.TableAdapterManager.UpdateAll(int_INEM.inemDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:int_INEM.inemDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:int_INEM.inemDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:int_INEM.inemDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:int_INEM.inemDataSet2.proveedoresDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:int_INEM.inemDataSet2.proveedoresRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:int_INEM.inemDataSet2.proveedoresRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:int_INEM.inemDataSet2">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:int_INEM.inemDataSet2TableAdapters.proveedoresTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:int_INEM.inemDataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(int_INEM.inemDataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:int_INEM.inemDataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(int_INEM.inemDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:int_INEM.inemDataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(int_INEM.inemDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:int_INEM.inemDataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:int_INEM.inemDataSet2TableAdapters.TableAdapterManager.UpdateAll(int_INEM.inemDataSet2)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:int_INEM.inemDataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:int_INEM.inemDataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:int_INEM.inemDataSet2TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:int_INEM.inemDataSet8.departamentosDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:int_INEM.inemDataSet8.departamentosRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:int_INEM.inemDataSet8.departamentosRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:int_INEM.inemDataSet8">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:int_INEM.inemDataSet8TableAdapters.departamentosTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:int_INEM.inemDataSet8TableAdapters.TableAdapterManager.UpdateUpdatedRows(int_INEM.inemDataSet8,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:int_INEM.inemDataSet8TableAdapters.TableAdapterManager.UpdateInsertedRows(int_INEM.inemDataSet8,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:int_INEM.inemDataSet8TableAdapters.TableAdapterManager.UpdateDeletedRows(int_INEM.inemDataSet8,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:int_INEM.inemDataSet8TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:int_INEM.inemDataSet8TableAdapters.TableAdapterManager.UpdateAll(int_INEM.inemDataSet8)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:int_INEM.inemDataSet8TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:int_INEM.inemDataSet8TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:int_INEM.inemDataSet8TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:int_INEM.inemDataSet1.dtDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:int_INEM.inemDataSet1.transaccionesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:int_INEM.inemDataSet1.dtRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:int_INEM.inemDataSet1.transaccionesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:int_INEM.inemDataSet1.dtRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:int_INEM.inemDataSet1.transaccionesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:int_INEM.inemDataSet1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:int_INEM.inemDataSet1TableAdapters.dtTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:int_INEM.inemDataSet1TableAdapters.transaccionesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:int_INEM.inemDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(int_INEM.inemDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:int_INEM.inemDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(int_INEM.inemDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:int_INEM.inemDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(int_INEM.inemDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:int_INEM.inemDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:int_INEM.inemDataSet1TableAdapters.TableAdapterManager.UpdateAll(int_INEM.inemDataSet1)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:int_INEM.inemDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:int_INEM.inemDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:int_INEM.inemDataSet1TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:int_INEM.inemDataSet4.dactivosDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:int_INEM.inemDataSet4.dactivosRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:int_INEM.inemDataSet4.dactivosRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:int_INEM.inemDataSet4">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:int_INEM.inemDataSet4TableAdapters.dactivosTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:int_INEM.inemDataSet4TableAdapters.TableAdapterManager.UpdateUpdatedRows(int_INEM.inemDataSet4,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:int_INEM.inemDataSet4TableAdapters.TableAdapterManager.UpdateInsertedRows(int_INEM.inemDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:int_INEM.inemDataSet4TableAdapters.TableAdapterManager.UpdateDeletedRows(int_INEM.inemDataSet4,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:int_INEM.inemDataSet4TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:int_INEM.inemDataSet4TableAdapters.TableAdapterManager.UpdateAll(int_INEM.inemDataSet4)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:int_INEM.inemDataSet4TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:int_INEM.inemDataSet4TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:int_INEM.inemDataSet4TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:int_INEM.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:int_INEM.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:int_INEM.My.Resources.Resources._03_64">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:int_INEM.My.Resources.Resources.add">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:int_INEM.My.Resources.Resources.arrow_regress_128">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:int_INEM.My.Resources.Resources.inemdb">
+	<summary>
+  Looks up a localized string similar to -- phpMyAdmin SQL Dump
+-- version 4.1.14
+-- http://www.phpmyadmin.net
+--
+-- Servidor: 127.0.0.1
+-- Tiempo de generación: 30-05-2016 a las 21:39:52
+-- Versión del servidor: 5.6.17
+-- Versión de PHP: 5.5.12
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+
+--
+-- Bas [rest of string was truncated]";.
+</summary>
+</member><member name="P:int_INEM.My.Resources.Resources.label14_64">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:int_INEM.My.Resources.Resources.List_File_128">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:int_INEM.My.Resources.Resources.Product_Code_48">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:int_INEM.My.Resources.Resources.shop_26_128">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:int_INEM.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:int_INEM.inemDataSet3.activosDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:int_INEM.inemDataSet3.activosRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:int_INEM.inemDataSet3.activosRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:int_INEM.inemDataSet3">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:int_INEM.inemDataSet3TableAdapters.activosTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:int_INEM.inemDataSet3TableAdapters.TableAdapterManager.UpdateUpdatedRows(int_INEM.inemDataSet3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:int_INEM.inemDataSet3TableAdapters.TableAdapterManager.UpdateInsertedRows(int_INEM.inemDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:int_INEM.inemDataSet3TableAdapters.TableAdapterManager.UpdateDeletedRows(int_INEM.inemDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:int_INEM.inemDataSet3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:int_INEM.inemDataSet3TableAdapters.TableAdapterManager.UpdateAll(int_INEM.inemDataSet3)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:int_INEM.inemDataSet3TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:int_INEM.inemDataSet3TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:int_INEM.inemDataSet3TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:int_INEM.inemDataSet6.cateogriaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:int_INEM.inemDataSet6.cateogriaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:int_INEM.inemDataSet6.cateogriaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:int_INEM.inemDataSet6">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:int_INEM.inemDataSet6TableAdapters.cateogriaTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:int_INEM.inemDataSet6TableAdapters.TableAdapterManager.UpdateUpdatedRows(int_INEM.inemDataSet6,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:int_INEM.inemDataSet6TableAdapters.TableAdapterManager.UpdateInsertedRows(int_INEM.inemDataSet6,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:int_INEM.inemDataSet6TableAdapters.TableAdapterManager.UpdateDeletedRows(int_INEM.inemDataSet6,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:int_INEM.inemDataSet6TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:int_INEM.inemDataSet6TableAdapters.TableAdapterManager.UpdateAll(int_INEM.inemDataSet6)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:int_INEM.inemDataSet6TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:int_INEM.inemDataSet6TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:int_INEM.inemDataSet6TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>

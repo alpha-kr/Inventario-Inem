@@ -1,0 +1,70 @@
+c:\users\andy\documents\visual studio 2012\Projects\int-INEM\int-INEM\bin\Debug\int-INEM.exe.config
+C:\Users\ANDY\documents\visual studio 2012\Projects\int-INEM\int-INEM\bin\Debug\int-INEM.exe
+C:\Users\ANDY\documents\visual studio 2012\Projects\int-INEM\int-INEM\bin\Debug\int-INEM.pdb
+C:\Users\ANDY\documents\visual studio 2012\Projects\int-INEM\int-INEM\bin\Debug\int-INEM.xml
+C:\Users\ANDY\documents\visual studio 2012\Projects\int-INEM\int-INEM\obj\Debug\int_INEM.Form1.resources
+C:\Users\ANDY\documents\visual studio 2012\Projects\int-INEM\int-INEM\obj\Debug\int_INEM.Resources.resources
+C:\Users\ANDY\documents\visual studio 2012\Projects\int-INEM\int-INEM\obj\Debug\int-INEM.vbproj.GenerateResource.Cache
+C:\Users\ANDY\documents\visual studio 2012\Projects\int-INEM\int-INEM\obj\Debug\int-INEM.exe
+C:\Users\ANDY\documents\visual studio 2012\Projects\int-INEM\int-INEM\obj\Debug\int-INEM.xml
+C:\Users\ANDY\documents\visual studio 2012\Projects\int-INEM\int-INEM\obj\Debug\int-INEM.pdb
+C:\Users\ANDY\documents\visual studio 2012\Projects\int-INEM\int-INEM\bin\Debug\DevComponents.DotNetBar2.dll
+C:\Users\ANDY\documents\visual studio 2012\Projects\int-INEM\int-INEM\bin\Debug\DevComponents.DotNetBar.Design.dll
+C:\Users\ANDY\documents\visual studio 2012\Projects\int-INEM\int-INEM\bin\Debug\DevComponents.Instrumentation.Design.dll
+C:\Users\ANDY\documents\visual studio 2012\Projects\int-INEM\int-INEM\bin\Debug\DevComponents.Instrumentation.dll
+C:\Users\ANDY\documents\visual studio 2012\Projects\int-INEM\int-INEM\obj\Debug\int-INEM.vbprojResolveAssemblyReference.cache
+C:\Users\ANDY\documents\visual studio 2012\Projects\int-INEM\int-INEM\obj\Debug\int_INEM.panel.resources
+C:\Users\ANDY\documents\visual studio 2012\Projects\int-INEM\int-INEM\obj\Debug\int_INEM.Opciones_de_proceso.resources
+C:\Users\ANDY\documents\visual studio 2012\Projects\int-INEM\int-INEM\obj\Debug\int_INEM.Agregar_provedor.resources
+C:\Users\Andy\Desktop\int-INEM\int-INEM\bin\Debug\int-INEM.exe.config
+C:\Users\Andy\Desktop\int-INEM\int-INEM\obj\Debug\int-INEM.exe
+C:\Users\Andy\Desktop\int-INEM\int-INEM\obj\Debug\int-INEM.xml
+C:\Users\Andy\Desktop\int-INEM\int-INEM\obj\Debug\int-INEM.pdb
+C:\Users\Andy\Desktop\int-INEM\int-INEM\bin\Debug\int-INEM.exe
+C:\Users\Andy\Desktop\int-INEM\int-INEM\bin\Debug\int-INEM.pdb
+C:\Users\Andy\Desktop\int-INEM\int-INEM\bin\Debug\int-INEM.xml
+C:\Users\Andy\Desktop\int-INEM\int-INEM\obj\Debug\int-INEM.vbprojResolveAssemblyReference.cache
+C:\Users\Andy\Desktop\int-INEM\int-INEM\obj\Debug\int_INEM.Agregar_provedor.resources
+C:\Users\Andy\Desktop\int-INEM\int-INEM\obj\Debug\int_INEM.Form1.resources
+C:\Users\Andy\Desktop\int-INEM\int-INEM\obj\Debug\int_INEM.Resources.resources
+C:\Users\Andy\Desktop\int-INEM\int-INEM\obj\Debug\int_INEM.Opciones_de_proceso.resources
+C:\Users\Andy\Desktop\int-INEM\int-INEM\obj\Debug\int_INEM.panel.resources
+C:\Users\Andy\Desktop\int-INEM\int-INEM\obj\Debug\int-INEM.vbproj.GenerateResource.Cache
+C:\Users\ANDY\Desktop\int-INEM\int-INEM\obj\Debug\int_INEM.Form2.resources
+C:\Users\ANDY\Desktop\int-INEM\int-INEM\obj\Debug\int_INEM.agregarcategoria.resources
+C:\Users\ANDY\Desktop\int-INEM\int-INEM\obj\Debug\int_INEM.PCategorias.resources
+C:\Users\ANDY\Desktop\int-INEM\int-INEM\obj\Debug\int_INEM.Articulos.resources
+C:\Users\ANDY\Dropbox\int-INEM\int-INEM\bin\Debug\int-INEM.exe.config
+C:\Users\ANDY\Dropbox\int-INEM\int-INEM\obj\Debug\int-INEM.exe
+C:\Users\ANDY\Dropbox\int-INEM\int-INEM\obj\Debug\int-INEM.xml
+C:\Users\ANDY\Dropbox\int-INEM\int-INEM\obj\Debug\int-INEM.pdb
+C:\Users\ANDY\Desktop\int-INEM\int-INEM\obj\Debug\int_INEM.Menu_ingresos.resources
+C:\Users\ANDY\Desktop\int-INEM\int-INEM\obj\Debug\int_INEM.ingresosproceso.resources
+C:\Users\ANDY\Desktop\int-INEM\int-INEM\bin\Debug\DevComponents.DotNetBar.Design.dll
+C:\Users\ANDY\Desktop\int-INEM\int-INEM\bin\Debug\DevComponents.DotNetBar2.dll
+C:\Users\ANDY\Desktop\int-INEM\int-INEM\obj\Debug\int_INEM.transaccion.resources
+C:\Users\ANDY\Desktop\int-INEM\int-INEM\obj\Debug\RdlCompile.cache
+C:\Users\ANDY\Desktop\int-INEM\int-INEM\obj\Debug\RdlCompile.compiled
+C:\Users\ANDY\Desktop\int-INEM\int-INEM\obj\Debug\int_INEM.verlista.resources
+C:\Users\ANDY\Desktop\int-INEM\int-INEM\obj\Debug\int_INEM.listaarticulos.resources
+C:\Users\ANDY\Desktop\int-INEM\int-INEM\obj\Debug\int_INEM.buscadoencontrado.resources
+C:\Users\ANDY\Desktop\int-INEM\int-INEM\obj\Debug\int_INEM.buscador.resources
+C:\Users\ANDY\Desktop\int-INEM\int-INEM\obj\Debug\int_INEM.ordercompa.resources
+C:\Users\ANDY\Desktop\int-INEM\int-INEM\obj\Debug\int_INEM.Reportador.resources
+C:\Users\ANDY\Desktop\int-INEM\int-INEM\obj\Debug\int_INEM.provedoresform.resources
+C:\Users\ANDY\Desktop\int-INEM\int-INEM\obj\Debug\int_INEM.articulosistema.resources
+C:\Users\ANDY\Desktop\int-INEM\int-INEM\obj\Debug\int_INEM.articulossegun.resources
+C:\Users\ANDY\Desktop\int-INEM\int-INEM\obj\Debug\int_INEM.categoriasformvb.resources
+C:\Users\ANDY\Desktop\int-INEM\int-INEM\obj\Debug\int_INEM.reporteindividual.resources
+C:\Users\ANDY\Desktop\int-INEM\int-INEM\obj\Debug\int_INEM.departreport.resources
+C:\Users\ANDY\Desktop\int-INEM\int-INEM\obj\Debug\int_INEM.departamento_activo3.resources
+C:\Users\ANDY\Desktop\int-INEM\int-INEM\obj\Debug\int_INEM.Buscareporte.resources
+C:\Users\ANDY\Desktop\int-INEM\int-INEM\obj\Debug\int_INEM.otroformdereport.resources
+C:\Users\ANDY\Desktop\int-INEM\int-INEM\bin\Debug\int-INEM.exe.manifest
+C:\Users\ANDY\Desktop\int-INEM\int-INEM\bin\Debug\int-INEM.application
+C:\Users\ANDY\Desktop\int-INEM\int-INEM\obj\Debug\int-INEM.exe.manifest
+C:\Users\ANDY\Desktop\int-INEM\int-INEM\obj\Debug\int-INEM.application
+C:\Users\ANDY\Desktop\libros U\int-INEM\int-INEM\bin\Debug\int-INEM.exe.config
+C:\Users\ANDY\Desktop\libros U\int-INEM\int-INEM\obj\Debug\int-INEM.exe
+C:\Users\ANDY\Desktop\libros U\int-INEM\int-INEM\obj\Debug\int-INEM.xml
+C:\Users\ANDY\Desktop\libros U\int-INEM\int-INEM\obj\Debug\int-INEM.pdb

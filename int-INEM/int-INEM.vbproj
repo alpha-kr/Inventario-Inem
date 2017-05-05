@@ -1,0 +1,649 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{82B45096-E8B8-4C30-BD17-D456A72662FB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>int_INEM.My.MyApplication</StartupObject>
+    <RootNamespace>int_INEM</RootNamespace>
+    <AssemblyName>int-INEM</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\ANDY\Desktop\programa INEM completo\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <TargetCulture>es-CO</TargetCulture>
+    <ProductName>Inventario Inem</ProductName>
+    <PublisherName>Andy Arias</PublisherName>
+    <SuiteName>Int-Inem</SuiteName>
+    <ApplicationRevision>4</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>int-INEM.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>int-INEM.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>logo.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>A6C4C487F8264BDD7E7D636FE26D3E857D3E6A35</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>int-INEM_ClaveTemporal.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar.Design, Version=12.8.0.1, Culture=neutral, PublicKeyToken=90f470f34c89ccaf, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\DotNetBar\DevComponents.DotNetBar.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar2, Version=12.8.0.1, Culture=neutral, PublicKeyToken=7eb7c3a35b91de04, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\DotNetBar\DevComponents.DotNetBar2.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Data, Version=6.8.6.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Program Files (x86)\MySQL\MySQL Connector Net 6.8.6\Assemblies\v4.0\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="agregarcategoria.Designer.vb">
+      <DependentUpon>agregarcategoria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="agregarcategoria.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Agregar_provedor.Designer.vb">
+      <DependentUpon>Agregar_provedor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Agregar_provedor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Articulos.Designer.vb">
+      <DependentUpon>Articulos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Articulos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="articulosistema.Designer.vb">
+      <DependentUpon>articulosistema.vb</DependentUpon>
+    </Compile>
+    <Compile Include="articulosistema.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="articulossegun.Designer.vb">
+      <DependentUpon>articulossegun.vb</DependentUpon>
+    </Compile>
+    <Compile Include="articulossegun.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="buscadoencontrado.Designer.vb">
+      <DependentUpon>buscadoencontrado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="buscadoencontrado.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="buscador.Designer.vb">
+      <DependentUpon>buscador.vb</DependentUpon>
+    </Compile>
+    <Compile Include="buscador.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Buscareporte.Designer.vb">
+      <DependentUpon>Buscareporte.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Buscareporte.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="categoriasformvb.Designer.vb">
+      <DependentUpon>categoriasformvb.vb</DependentUpon>
+    </Compile>
+    <Compile Include="categoriasformvb.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="departamento-activo3.Designer.vb">
+      <DependentUpon>departamento-activo3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="departamento-activo3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="departreport.Designer.vb">
+      <DependentUpon>departreport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="departreport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="inemDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>inemDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="inemDataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>inemDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="inemDataSet2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>inemDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="inemDataSet3.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>inemDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="inemDataSet4.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>inemDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="inemDataSet6.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>inemDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="inemDataSet8.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>inemDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ingresosproceso.Designer.vb">
+      <DependentUpon>ingresosproceso.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ingresosproceso.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="listaarticulos.Designer.vb">
+      <DependentUpon>listaarticulos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="listaarticulos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu-ingresos.Designer.vb">
+      <DependentUpon>Menu-ingresos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Menu-ingresos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ordercompa.Designer.vb">
+      <DependentUpon>ordercompa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ordercompa.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="otroformdereport.Designer.vb">
+      <DependentUpon>otroformdereport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="otroformdereport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PCategorias.Designer.vb">
+      <DependentUpon>PCategorias.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PCategorias.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.vb">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="funciones.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Opciones de proceso.Designer.vb">
+      <DependentUpon>Opciones de proceso.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Opciones de proceso.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="panel.Designer.vb">
+      <DependentUpon>panel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="panel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="provedoresform.Designer.vb">
+      <DependentUpon>provedoresform.vb</DependentUpon>
+    </Compile>
+    <Compile Include="provedoresform.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportador.Designer.vb">
+      <DependentUpon>Reportador.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Reportador.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="reporteindividual.Designer.vb">
+      <DependentUpon>reporteindividual.vb</DependentUpon>
+    </Compile>
+    <Compile Include="reporteindividual.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="transaccion.Designer.vb">
+      <DependentUpon>transaccion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="transaccion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="verlista.Designer.vb">
+      <DependentUpon>verlista.vb</DependentUpon>
+    </Compile>
+    <Compile Include="verlista.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="agregarcategoria.resx">
+      <DependentUpon>agregarcategoria.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Agregar_provedor.resx">
+      <DependentUpon>Agregar_provedor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="articulossegun.resx">
+      <DependentUpon>articulossegun.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Buscareporte.resx">
+      <DependentUpon>Buscareporte.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="categoriasformvb.resx">
+      <DependentUpon>categoriasformvb.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="departamento-activo3.resx">
+      <DependentUpon>departamento-activo3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="departreport.resx">
+      <DependentUpon>departreport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="otroformdereport.resx">
+      <DependentUpon>otroformdereport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reporteindividual.resx">
+      <DependentUpon>reporteindividual.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reportes\allarti.rdlc" />
+    <EmbeddedResource Include="Articulos.resx">
+      <DependentUpon>Articulos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="articulosistema.resx">
+      <DependentUpon>articulosistema.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="buscadoencontrado.resx">
+      <DependentUpon>buscadoencontrado.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="buscador.resx">
+      <DependentUpon>buscador.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ingresosproceso.resx">
+      <DependentUpon>ingresosproceso.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="listaarticulos.resx">
+      <DependentUpon>listaarticulos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu-ingresos.resx">
+      <DependentUpon>Menu-ingresos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reportes\articulossung.rdlc" />
+    <EmbeddedResource Include="reportes\cateogrias.rdlc" />
+    <EmbeddedResource Include="reportes\listadepartamentos.rdlc" />
+    <EmbeddedResource Include="reportes\orden.rdlc" />
+    <EmbeddedResource Include="ordercompa.resx">
+      <DependentUpon>ordercompa.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PCategorias.resx">
+      <DependentUpon>PCategorias.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Opciones de proceso.resx">
+      <DependentUpon>Opciones de proceso.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="panel.resx">
+      <DependentUpon>panel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reportes\pordepartamento.rdlc" />
+    <EmbeddedResource Include="reportes\provedores.rdlc" />
+    <EmbeddedResource Include="provedoresform.resx">
+      <DependentUpon>provedoresform.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportador.resx">
+      <DependentUpon>Reportador.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reportes\ti.rdlc" />
+    <EmbeddedResource Include="transaccion.resx">
+      <DependentUpon>transaccion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="verlista.resx">
+      <DependentUpon>verlista.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="inemDataSet.xsc">
+      <DependentUpon>inemDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="inemDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>inemDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="inemDataSet.xss">
+      <DependentUpon>inemDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="inemDataSet1.xsc">
+      <DependentUpon>inemDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="inemDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>inemDataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="inemDataSet1.xss">
+      <DependentUpon>inemDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="inemDataSet2.xsc">
+      <DependentUpon>inemDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="inemDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>inemDataSet2.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="inemDataSet2.xss">
+      <DependentUpon>inemDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="inemDataSet3.xsc">
+      <DependentUpon>inemDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="inemDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>inemDataSet3.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="inemDataSet3.xss">
+      <DependentUpon>inemDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="inemDataSet4.xsc">
+      <DependentUpon>inemDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="inemDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>inemDataSet4.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="inemDataSet4.xss">
+      <DependentUpon>inemDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="inemDataSet6.xsc">
+      <DependentUpon>inemDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="inemDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>inemDataSet6.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="inemDataSet6.xss">
+      <DependentUpon>inemDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="inemDataSet8.xsc">
+      <DependentUpon>inemDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="inemDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>inemDataSet8.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="inemDataSet8.xss">
+      <DependentUpon>inemDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="int-INEM_ClaveTemporal.pfx" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\DataSources\agregarcategoria.datasource" />
+    <None Include="My Project\DataSources\Agregar_provedor.datasource" />
+    <None Include="My Project\DataSources\Articulos.datasource" />
+    <None Include="My Project\DataSources\Form1.datasource" />
+    <None Include="My Project\DataSources\Form2.datasource" />
+    <None Include="My Project\DataSources\ingresosproceso.datasource" />
+    <None Include="My Project\DataSources\int_INEM.My.MyApplication.datasource" />
+    <None Include="My Project\DataSources\int_INEM.My.MySettings.datasource" />
+    <None Include="My Project\DataSources\Menu_ingresos.datasource" />
+    <None Include="My Project\DataSources\Opciones_de_proceso.datasource" />
+    <None Include="My Project\DataSources\panel.datasource" />
+    <None Include="My Project\DataSources\PCategorias.datasource" />
+    <None Include="My Project\DataSources\transaccion.datasource" />
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="logo.ico" />
+    <None Include="Resources\inemdb.sql" />
+    <None Include="Resources\Product_Code-48.png" />
+    <None Include="Resources\List-File-128.png" />
+    <None Include="Resources\label14-64.png" />
+    <None Include="Resources\03-64.png" />
+    <Content Include="Resources\add.png" />
+    <Content Include="Resources\arrow_regress-128.png" />
+    <None Include="Resources\shop-26-128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 y x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="Microsoft.ReportViewer.Common">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.ReportViewer.DataVisualization">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.ReportViewer.ProcessingObjectModel">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.ReportViewer.WinForms">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.SqlServer.Types">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Microsoft.VisualBasic.PowerPacks.Vs">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="MySql.Data">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="Resources\add.png">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
